@@ -56,7 +56,82 @@ Upload to GitHub Pages for free hosting.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: grey;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            color: #ff6347;
+            transition: color 0.3s ease;
+        }
+
+        section {
+            width: 80%;
+            max-width: 900px;
+            padding: 40px;
+            margin: 20px 0;
+            background-color: #ffcbcb;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h1, section h2 {
+            color: #333;
+        }
+
+        #about img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        #photo {
+            display: block;
+            margin: 20px auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -77,9 +152,8 @@ Upload to GitHub Pages for free hosting.
 
     <section id="about">
         <h2>About Me</h2>
-        <img src="vasavi.jpg" alt="Profile Picture" width="250" id="photo" >
-        <p>Hi, I am Dappili Vasavi i am currently pursuing B.E second year in the department of Computer Science and Engineering,in Saveetha Engineering College.My goal is to keep improving, learn new techniques, and build even more complex projects in the future.</p>
-    </section>
+        <img src="profile photo.jpeg" alt="Profile Picture" width="250" id="photo">
+        <p>Hi, I am Dappili Vasavi. I am currently pursuing B.E. second year in the department of Computer Science and Engineering at Saveetha Engineering College. My goal is to keep improving, learn new techniques, and build even more complex projects in the future.</p>
     </section>
 
     <section id="projects">
@@ -96,124 +170,18 @@ Upload to GitHub Pages for free hosting.
         <h2>Contact</h2>
         <p>Contact Me:</p>
         <ul>
-            <li>Email: vasavireddy123@gmail.com</li>
-            <li>LinkedIn:  linkedin.com/in/VasaviReddy</li>
-            <li>GitHub: github.com/VasaviDappili</li>
+            <li>Email: rkdhareene@gmail.com</li>
+            <li>LinkedIn: <a href="www.linkedin.com/in/dhareenerk" target="_blank">linkedin.com/in/dhareenerk</a></li>
+            <li>GitHub: <a href="https://github.com/DhareeneRK" target="_blank">github.com/DhareeneRK</a></li>
             <li>Phone No: 1234567890</li>
-
         </ul>
     </section>
 
     <footer>
-        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+        <p>&copy; 2025 Dhareene R K. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
-```
-
-##Style.CSS
-
-```
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color:grey;
-    line-height: 1.6;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-
-section {
-    padding: 40px;
-    margin: 20px 0;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-section h1, section h2 {
-    color: #333;
-}
-
-
-nav ul li a:hover {
-    color: #ff6347;
-    transition: color 0.3s ease;
-}
-
-
-#about img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-top: 20px;
-}
-
-
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-header, footer {
-    width: 100%;
-}
-
-section {
-    width: 80%;
-    max-width: 900px;
-    margin: 20px 0;
-}
-#photo{
-
-    margin-left: 290px;
-   
-}
-#home{
-    background-color: #ffcbcb;
-}
-#about{
-    background-color: #ffcbcb;
-}
-#projects{
-    background-color: #ffcbcb;
-}
-#contact{
-    background-color: #ffcbcb;
-}
 
 
 ```
@@ -221,10 +189,8 @@ section {
 
 
 ## OUTPUT
-![Screenshot (209)](https://github.com/user-attachments/assets/6160b36a-742e-4106-a935-2ddcae461a71)
-![Screenshot (210)](https://github.com/user-attachments/assets/81515d9a-cd9e-4d83-a748-aa3c1d053ddf)
-![Screenshot (211)](https://github.com/user-attachments/assets/92703518-e36a-4be4-8f98-afada2371a04)
-![Screenshot (215)](https://github.com/user-attachments/assets/fe95cc4d-a81e-49a0-a0d1-d7e37368f23b)
+![web ex1 sc1](https://github.com/user-attachments/assets/cc615c86-005a-4c9a-8c3c-1716bf27ee7d)
+![web ex 1 sc2](https://github.com/user-attachments/assets/313720f3-4de2-4dea-a981-b6f0b0e1b5a3)
 
 
 
