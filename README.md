@@ -189,8 +189,9 @@ Upload to GitHub Pages for free hosting.
 
 
 ## OUTPUT
-![web ex1 sc1](https://github.com/user-attachments/assets/cc615c86-005a-4c9a-8c3c-1716bf27ee7d)
-![web ex 1 sc2](https://github.com/user-attachments/assets/313720f3-4de2-4dea-a981-b6f0b0e1b5a3)
+![dhareeneweb1 sc1](https://github.com/user-attachments/assets/d680078b-7a61-43d2-9f53-8766c6e73428)
+![dhareeneweb1 sc2](https://github.com/user-attachments/assets/0fb37722-1329-42e2-8651-a96175c04662)
+
 
 
 
